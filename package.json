@@ -16,12 +16,14 @@
     "type": "git",
     "url": "git+https://github.com/aditya-1109/educraftWriters-backend.git"
   },
+  
   "license": "ISC",
   "author": "aditya jain",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

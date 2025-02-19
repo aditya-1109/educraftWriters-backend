@@ -2,11 +2,15 @@ import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
 import { userModel } from "./userSchema.js";
+import  dotenv  from "dotenv";
+
+dotenv.config();
+
+
 
 const app=express();
 const port= 4000;
-const url= "mongodb://localhost:27017/educraft"
-
+const url= process.env.Mongo_URL
 mongoose.connect(url)
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());

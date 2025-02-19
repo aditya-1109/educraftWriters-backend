@@ -1,0 +1,31 @@
+{
+  "name": "educraft",
+  "version": "1.0.0",
+  "description": "this is a thesis,synopsis writing company",
+  "keywords": [
+    "thesis",
+    "synopsis",
+    "assignment",
+    "research-paper"
+  ],
+  "homepage": "https://github.com/aditya-1109/educraftWriters-backend#readme",
+  "bugs": {
+    "url": "https://github.com/aditya-1109/educraftWriters-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aditya-1109/educraftWriters-backend.git"
+  },
+  "license": "ISC",
+  "author": "aditya jain",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1"
+  }
+}
